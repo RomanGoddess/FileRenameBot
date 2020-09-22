@@ -88,7 +88,7 @@ async def convert_to_video(bot, update):
             c_time = time.time()
             await bot.send_document(
                 chat_id=update.chat.id,
-                video=the_real_download_location,
+                document=the_real_download_location,
                 caption=description,
                 # reply_markup=reply_markup,
                 thumb=thumb_image_path,
